@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    {{name}}
+    <p>This is text.</p>
+ 
+    <script src="{{url_for('static', filename='js/base.js')}}"></script>
+    <script src="{{url_for('static', filename='js/home.js')}}"></script>
+{% endblock %}
